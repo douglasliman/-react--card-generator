@@ -1,0 +1,18 @@
+.input{
+    padding: 13px;
+    border: none;
+    border-radius: .5rem;
+}
+.input{
+    margin-top: 10px;
+    border: 1px solid grey !important;
+  }
+
+.label{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: left;
+    color: rgba(245, 245, 245, 0.685);
+}

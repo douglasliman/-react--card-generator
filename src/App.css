@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  max-width: 750px;
+  width: 100%;
+}
+
+
+button{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  background-color: rgba(124, 104, 238, 0.932) !important;
+  opacity: 0.9;
+  color: whitesmoke;
+  font-size: 20px !important;
+  padding: 10px !important;
+}
+
+button:hover{
+  opacity: 0.9;
+  background-color: rgb(135, 115, 243) !important;
+  border:1px solid rgb(240, 235, 235) !important;
+  transform: scale(1.01);
+  transition: 1s ease-in-out;
+
+}
