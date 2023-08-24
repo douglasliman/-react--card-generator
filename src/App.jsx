@@ -4,7 +4,7 @@ import CardComponent from './Components/Card/Card';
 import InputComponent from './Components/Input/Input';
 import CardList from './Components/Card/CardList';
 // import Card from './Components/Card/Card';
-import Swal from 'sweetalert2';
+
 
 function App() {
 // =================  INPUTS================
@@ -78,13 +78,8 @@ const handleChangeImgUrl = (event) => {
       setTitle("");
       setImgUrl("");
       setDescription("");
-    } else {
-      Swal.fire({
-        title: 'Atenção!',
-        text: 'Por favor, preencha todos os campos corretamente.',
-        icon: 'error',
-      });
     }
+    
   };
   
 
