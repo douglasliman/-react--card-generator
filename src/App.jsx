@@ -28,6 +28,7 @@ const [isDescriptionValid, setIsDescriptionValid] = useState(true);
   const [isImgValid, setIsImgValid] = useState(true);
 
 
+// ================ TITLE =================
   const handleChangeTitle = (event) => {
     const title =event.target.value;
     setTitle(title)
@@ -37,6 +38,9 @@ const [isDescriptionValid, setIsDescriptionValid] = useState(true);
       setIsTitleValid(true)
     }
   }
+
+// ================ DESCRIPTION =================
+
   const handleChangeDescription = (event) => {
     const title =event.target.value;
     setDescription(title)
@@ -47,7 +51,8 @@ const [isDescriptionValid, setIsDescriptionValid] = useState(true);
     }
   }
 
- // ...
+// ================ imagem =================
+
 
 const handleChangeImgUrl = (event) => {
   const imageUrl = event.target.value;
@@ -125,7 +130,7 @@ const handleChangeImgUrl = (event) => {
 
 
         <button 
-        disabled= {imgUrl === " "  &&title=== " " && description === " "}
+        disabled= {imgUrl === " "  && title=== " " && description === " "}
         onClick={handleButtonClick} >Salvar</button>
 
       </form>
@@ -138,8 +143,6 @@ const handleChangeImgUrl = (event) => {
               title={infoCard.title.toUpperCase()}
               description={infoCard.description}
               imgUrl={infoCard.imgUrl}
-
-        
           
             />
       

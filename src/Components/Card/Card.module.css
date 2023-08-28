@@ -24,7 +24,7 @@
    transition: 0.5s ease-in-out;
 filter: grayscale(0.5);
 object-fit: cover;
-filter: blur(3px);
+filter: blur(1px);
    
 }
 .div:hover{
